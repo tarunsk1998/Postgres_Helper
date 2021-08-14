@@ -51,6 +51,7 @@ class ConnectToPostgres:
 if __name__ == '__main__':
     connect_to_postgres = ConnectToPostgres()
     #connect_to_postgres.drop_table_python_postgres_table()
+
     connect_to_postgres.create_python_postgres_table()
 
     #connect_to_postgres.deleting_all_values_from_python_postgres_table()
